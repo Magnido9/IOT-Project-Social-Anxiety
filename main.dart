@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
+//ido is not cool
 void main() {
   runApp(
     MyApp(
       items: List<ListItem>.generate(
         2,
-            (i) => i % 6 == 0
+        (i) => i % 6 == 0
             ? HeadingItem('Your tasks for today: $i')
             : MessageItem('Task 1:', 'Do a backflip'),
       ),
