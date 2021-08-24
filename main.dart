@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//ido is not cool
+//ido dqwdanot cool
 void main() {
   runApp(
     MyApp(
